@@ -18,6 +18,5 @@ after that you can find it in EBS > Snapshot section. You can copy it for anothe
 
 You must be set retention rules before you create a snapshot.  
 
-
-
 add instance iam role via action>security>modify aim  
+
