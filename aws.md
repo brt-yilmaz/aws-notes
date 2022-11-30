@@ -20,3 +20,4 @@ You must be set retention rules before you create a snapshot.
 
 
 
+add instance iam role via action>security>modify aim  
