@@ -4,5 +4,6 @@ To add ssh key and connect:
 
 ```bash
 sudo chmod 0400 <pemfile>
-sudo ssh -i <pemfile> ec2-user@instancepublicid
+sudo ssh -i <pemfile> ec2-user@instancePublicId
 ```
+add instance iam role via action>security>modify iam
