@@ -7,6 +7,7 @@ sudo chmod 0400 <pemfile>
 sudo ssh -i <pemfile> ec2-user@instancePublicId
 ```
 add instance iam role via action>security>modify iam
+
 > search how can i use EBS volume via local terminal.  
 
 Volumes and instances must be in same availability zone. You can set this while creating volumes.  
@@ -17,6 +18,3 @@ You can create a snapshot for the volumes, go to EBS > Volumes > Actions > Creat
 after that you can find it in EBS > Snapshot section. You can copy it for another zone.  
 
 You must be set retention rules before you create a snapshot.  
-
-add instance iam role via action>security>modify aim  
-
